@@ -1,0 +1,644 @@
+@media (max-width: 691px) {  
+    .cap {
+        width: 768px;
+        height: 80px;
+    }
+
+    .logo {
+        margin: 0px 0px -29px 39px;
+    }
+
+    .position {
+        margin-left: 259px;
+    }
+
+    .item4 {
+        margin: 29px 39px 0px 0px;
+    }
+
+    .big_photo_background {
+        background: url("../img/hero2.jpg");  
+        width: 768px;
+        height: 700px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .big_photo_rhomb {
+        background: url("../img/Image_2.svg");  
+        width: 117px;
+        height: 93px;
+        margin: 125px 0px 0px 415px;
+    }
+
+    .big_photo_drawing {
+        display: block;
+        position: absolute;
+        width: 311px;
+        height: 342px;
+        margin: 155px 0px 0px 420px;
+        background: url("../img/Image2.svg");  
+    }
+
+    .bigtext_big_photo {
+        width: 385px;
+        height: 92px;
+        font-size: 50px;
+        padding: 130px 0px 0px 24px; 
+        margin: 0px;
+    }
+      
+    .mintext_big_photo {
+        width: 395px;
+        height: 94px;
+        white-space:normal;
+        padding: 270px 19px 90px 24px;
+    }
+
+    .btn_big_photo {
+        position: absolute;
+        padding: 455px 0px 100px 24px;
+    }
+
+    .about_us_background {
+        width: 768px;
+        padding: 80px 0px 0px 45px;
+    }
+
+    .picture0 {
+        display: block;
+        width: 211px;
+        height: 187px;
+        background: url("../img/Vectary_texture2.svg");
+        margin-top: 35px;
+    }
+
+    .text_list {
+        margin: -210px 0px 0px 240px;
+    }
+
+    .text_list2 {
+        position: relative;
+        width: 450px;
+        height: 130px;
+        line-height: 24px;
+        margin: -110px 0px 0px 240px;
+    }
+     
+    .text_list3 {
+        width: 210px;
+        height: 68px;
+        margin: 15px 0px 0px 0px;
+    }
+
+    .text_list4 {
+        width: 203px;
+        height: 68px;
+        margin: 15px 0px 0px 40px;
+    }
+
+    .text_list5 {
+        width: 210px;
+        height: 68px;
+        margin: 15px 0px 0px 40px;
+    }
+
+    .picture {
+        margin-top: 40px;
+    }
+
+    .picture1 {
+        margin: 40px 0px 0px 0px;
+    }
+
+    .picture2 {
+        margin: 40px 0px 0px 40px;
+    }
+
+    .picture3 {
+        margin: 40px 0px 0px 40px;
+    }
+
+    .teachers_background {
+        width: 807px;
+        height: 940px;
+        padding: 80px 0px 80px 39px;
+        margin-top: 80px;
+    }
+      
+    .if_preparator {
+        width: 261px;
+    }
+
+    .description_of_the_teacher {
+        width: 330px;
+        height: 96px;
+    }
+    
+    .courses_background {
+        width: 768px;
+        padding: 80px 0px 80px 39px;
+    }
+
+    .card_courses {
+        width: 330px;
+        height: 556px;
+    }
+
+    .card_courses2 {
+        width: 330px;
+        height: 556px;
+        margin-top: 30px;
+    }
+
+    .time {
+        display: block;
+        position: relative;
+        margin: -175px 0px 170px 225px;
+    }
+
+    .description_title {
+        width: 254px;
+        white-space: nowrap;
+    }
+
+    .description {
+        width: 270px;
+        height: 196px;
+    }
+
+    .footer_background {
+        width: 768px;
+        height: 98px;
+    }
+
+    .social_position {
+        position: relative;
+        margin: 0px 0px 0px 286px;
+    }
+
+    .trademark {
+        margin-left: 540px;
+    }
+}
+
+@media (max-width: 511px) {  
+    .cap {
+        width: 576px;
+        height: 133px;
+    }
+
+    .logo {
+        margin: 0px 0px -35px 241px;
+    }
+
+    .position {
+        margin-left: 60px;
+    }
+
+    .item4 {
+        margin: -51.5px 0px 0px 390px;
+    }
+
+    .item {
+        display: block;
+        width: 47px;
+        height: 21px;
+        margin: 81px 56px 30px 0px;
+    }
+
+    .big_photo_background {
+        position: relative;
+        width: 576px;
+        z-index: -1; 
+        margin: -95px 0px 0px 0px;
+        background: url("../img/hero3.jpg"); 
+    }
+
+    .big_photo_rhomb {
+        display: none;
+    }
+
+    .big_photo_drawing {
+        display: none;
+    }
+
+    .bigtext_big_photo {
+        width: 385px;
+        height: 92px;
+        font-size: 50px;
+        padding: 177px 0px 0px 33px; 
+        margin: 0px;
+    }
+      
+    .mintext_big_photo {
+        width: 375px;
+        height: 94px;
+        white-space:normal;
+        padding: 314px 0px 0px 33px;
+    }
+
+    .btn_big_photo {
+        position: absolute;
+        padding: 486px 0px 100px 33px;
+    }
+
+    .about_us_background  {
+        width: 577px;
+        padding: 80px 0px 60px 48px;
+    }
+
+    .picture0 {
+        display: block;
+        width: 150px;
+        height: 134px;
+        background: url("../img/Vectary_texture3.svg");
+        margin-top: 0px;
+    }
+
+    .text_list {
+        width: 330px;
+        height: 114px;
+        margin: -133px 0px 0px 190px;
+    }
+
+    .text_list2 {
+        width: 330px;
+        height: 179px;
+        line-height: 24px;
+        margin: 0px 0px 0px 190px;
+    }
+     
+    .text_list3 {
+        width: 150px;
+        height: 86px;
+        margin: 0px 30px 0px 0px;
+    }
+
+    .text_list4 {
+        width: 150px;
+        height: 86px;
+        margin: 0px 30px 0px 0px;
+    }
+
+    .text_list5 {
+        width: 160px;
+        height: 86px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .picture {
+        margin-top: 30px;
+    }
+
+    .picture1 {
+        margin: 50px 0px 15px 0px;
+    }
+
+    .picture2 {
+        margin: 50px 0px 15px 0px;
+    }
+
+    .picture3 {
+        margin: 50px 0px 15px 0px;
+    }
+
+    .teachers_background {
+        width: 600px;
+        height: 950px;
+        padding: 80px 0px 80px 33px;
+        margin-top: 0px;
+    }
+
+    .heading_teachers {
+        width: 435px;
+    }
+      
+    .if_preparator {
+        width: 260px;
+    }
+
+    .description_of_the_teacher {
+        width: 240px;
+        height: 113px;
+        margin-bottom: 30px;
+    }
+    
+    .courses_background {
+        width: 577px;
+        padding: 80px 0px 80px 33px;
+    }
+
+    .card_courses {
+        width: 240px;
+        height: 653px;
+    }
+
+    .card_courses2 {
+        width: 240px;
+        height: 653px;
+        margin-top: 30px;
+    }
+
+    .time {
+        margin: -173px 0px 170px 135px;
+    }
+
+    .description_title {
+        line-height: 23px;
+        white-space: normal;
+        width: 210px;
+    }
+
+    .description {
+        width: 180px;
+        height: 257px;
+        margin-top: 30px;
+    }
+
+    .description4 {
+        width: 200px;
+        height: 257px;
+        font-weight: 400;
+        font-size: 16px;
+        font-family: sans-serif;
+        line-height: 24px;
+        color: #666666;
+        margin: 20px 0px 0px 30px;
+    }
+
+    .card_button {
+        padding: 35px 0px 29px 30px;
+    }
+      
+    .button {
+        width: 180px;
+        padding: 20px 48px 20px 48px;
+    }
+
+    .card_button2 {
+        position: absolute;
+        padding: 60px 0px 29px 30px;
+    }
+      
+    .footer_background {
+        width: 577px;
+        height: 80px;
+    }
+
+    .social_position {
+        position: relative;
+        margin: 0px 0px 0px 200px;
+    }
+
+    .trademark {
+        margin-left: 454px;
+    }
+}
+
+@media (max-width: 321px) {  
+    .cap {
+        width: 320px;
+        height: 80px;
+      }
+
+    .logo {
+        margin: 0px 0px -32px 15px;
+    }
+
+    .text_a_cap {
+        display: none;
+    }
+
+    .item {
+        display: none;
+    }
+
+    .header__nav {
+        display: block;
+        position: absolute;
+        z-index: 11;                      
+        top: 75px;
+        left: 0;
+        background: var(--color6);
+        border-radius: 0px 0px 32px 32px;
+        width: 420px;
+        height: 656px;
+        transition: all 0.4s ease;
+        left:-100%;
+    }
+
+    .header__menu {
+        display: block;
+    }
+
+    .header__nav.open-menu{
+        left:0;
+    }
+
+    .header__menu li {
+        margin: 0px 0px 0px 1150px;
+        font-size: 14px;
+    }
+
+    .menu-burger__header {
+        position: absolute; 
+        width: 30px; 
+        height: 23px; 
+        display: block;
+        margin: 25px 15px 25px 275px;
+    }
+
+    .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+        height: 2.5px;
+        width: 20px; 
+        position: absolute;
+        background-color: var( --color2);
+        border-radius: 1px;
+        margin: 0 auto;
+    }
+
+    .menu-burger__header span{
+        top: 8px; 
+    }
+
+    .menu-burger__header:after, .menu-burger__header:before{
+        content: '';
+    }
+
+    .menu-burger__header:after{
+        bottom: 4px;  
+    }
+
+    .menu-burger__header.open-menu span {
+        opacity:0; 
+        transition: 0.5s; 
+    }
+
+    .menu-burger__header.open-menu:before {
+        transform: matrix(0.71, 0.74, -0.67, 0.71, 0, 0);
+        top: 16px;
+        width: 23px;
+        transition: 0.4s;
+    }                                                                                                   
+
+    .menu-burger__header.open-menu:after {
+        transform: matrix(0.71, -0.74, 0.67, 0.71, 0, 0);
+        width: 23px;
+        transition: 0.4s;
+    }
+
+    .big_photo_background {
+        background: url("../img/hero4.jpg");  
+        width: 320px;
+        height: 433px;
+    }
+
+    .bigtext_big_photo {
+        width: 226px;
+        height: 55px;
+        font-size:  30px;
+        padding: 130px 0px 0px 15px; 
+        line-height: 30px;
+        margin: 0px;
+    }
+
+    .mintext_big_photo {
+        width: 318px;
+        height: 73px;
+        font-size: 16px;
+        white-space:normal;
+        line-height: 20px;
+        padding: 195px 19px 90px 15px;
+    }
+    
+    .btn_big_photo {
+        position: absolute;
+        padding: 323px 0px 50px 15px;
+    }
+
+    .btn_big_photo2 {
+        width: 213px;
+        height: 60px;
+        font-size: 16px;
+        padding: 20px 50px 20px 50px;
+    }
+
+    .about_us_background {
+        width: 320px;
+        padding: 50px 0px 50px 30px;
+    }
+
+    .picture0 {
+        display: none;
+    }
+
+    .text_list {
+        width: 290px;
+        height: 46px;
+        font-size: 20px;
+        line-height: 26px;
+        margin: 0px;
+    }
+
+    .text_list2 {
+        width: 290px;
+        height: 202px;
+        line-height: 24px;
+        margin: 15px 0px 0px 0px;
+    }
+     
+    .text_list3 {
+        width: 180px;
+        height: 67px;
+        margin: -97px 0px 55px 110px;
+    }
+
+    .text_list4 {
+        width: 180px;
+        height: 67px;
+        margin: -83px 0px 55px 110px;
+    }
+
+    .text_list5 {
+        width: 180px;
+        height: 67px;
+        margin: -82px 0px 13px 110px;
+    }
+
+    .picture1 {
+        margin-top: 40px;
+    }
+
+    .picture2 {
+        margin: 0px;
+    }
+
+    .picture3 {
+        margin: 0px;
+    }
+
+    .teachers_background {
+        width: 320px;
+        height: 1555px;
+        padding: 50px 0px 50px 15px;
+    }
+
+    .heading_teachers {
+        width: 266px;
+        height: 14px;
+        font-size: 20px;
+    }
+      
+    .if_preparator {
+        width: 253px;
+    }
+
+    .description_of_the_teacher {
+        width: 280px;
+        height: 89px;
+        margin-bottom: 30px;
+    }
+    
+    .courses_background {
+        width: 320px;
+        padding: 50px 0px 50px 15px;
+    }
+
+    .card_courses {
+        width: 290px;
+        height: 653px;
+    }
+
+    .card_courses2 {
+        width: 290px;
+        height: 653px;
+    }
+
+    .indent_сс {
+        margin-top: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .description {
+        width: 222px;
+        height: 209px;
+    }
+
+    .time {
+        margin: -170px 0px 170px 185px;
+    }
+
+    .footer_background {
+        width: 290px;
+        height: 80px;
+    }
+
+    .social_position {
+        margin-left: 50px;
+    }
+
+    .trademark {
+        margin-left: 305px;
+    }
+}

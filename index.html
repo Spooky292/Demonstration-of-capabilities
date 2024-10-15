@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>None</title>
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css">
+  <link rel="stylesheet" href="css/choices.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Чек-бокс -->
+  <div class="cap">
+		<h2 class="heading">Категории:</h2>
+		<div class="checkbox">
+			<input type="checkbox" id="checkbox_1">
+			<label class="checkbox_text" for="checkbox_1">Динозавры</label>
+		</div>
+		<div class="checkbox">
+			<input type="checkbox" id="checkbox_2">
+			<label class="checkbox_text" for="checkbox_2">Медведи</label>
+		</div>
+		<div class="checkbox">
+			<input type="checkbox" id="checkbox_3">
+			<label class="checkbox_text" for="checkbox_3">Косули</label>
+		</div>
+		<div class="checkbox">
+			<input type="checkbox" id="checkbox_4">
+			<label class="checkbox_text" for="checkbox_4">Лисы</label>
+		</div>
+		<div class="checkbox">
+			<input type="checkbox" id="checkbox_5">
+			<label class="checkbox_text" for="checkbox_5">Волки</label>
+		</div>
+		<div class="checkbox">
+			<input type="checkbox" id="checkbox_6">
+			<label class="checkbox_text" for="checkbox_6">Олени&nbsp;и&nbsp;лоси</label>
+		</div>
+	</div>
+  <!-- Селект -->
+  <div class="task2">
+		<select name="select" class="select">
+			<option value="Выбор_1">Древесина</option>
+			<option value="Выбор_2">Металл</option>
+			<option value="Выбор_3">Камень</option>
+			<option value="Выбор_4">Пластик</option>
+			<option value="Выбор_5">Композитный</option>
+			<option value="Выбор_6">Гипс</option>
+		</select>
+	</div>
+	<!-- Карта -->
+	<div class="cap2" id="map" style="width: 460px; height: 460px"></div>
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
+	<script type="text/javascript">
+	ymaps.ready(init);
+		function init(){
+			var myMap = new ymaps.Map("map", {
+			center: [48.872185, 2.354224],
+			zoom: 14});
+			var myGeoObject = new ymaps.GeoObject({
+    		geometry: {
+        	type: "Point", 
+        	coordinates: [48.872185, 2.354224]}});
+			var myPlacemark = new ymaps.Placemark([48.872185, 2.354224], {}, {
+			iconLayout: 'default#image',
+			iconImageHref: 'img/Subtract.svg',
+			iconImageSize: [30,42],
+			iconImage0ffset: [-3, -42]});
+			// myMap.geoObjects.add(myGeoObject);
+			myMap.geoObjects.add(myPlacemark);
+		}
+	</script>
+	<!-- Скрол -->
+	<div class="scroll" data-simplebar>
+		<p class="text-scrol">
+		Сложно сказать, почему многие известные личности представлены в исключительно положительном свете. 
+		Лишь активно развивающиеся страны третьего мира будут объективно рассмотрены соответствующими инстанциями. 
+		Мы вынуждены отталкиваться от того, что высокотехнологичная концепция общественного уклада представляет собой интересный эксперимент проверки глубокомысленных рассуждений. 
+		Имеется спорная точка зрения, гласящая примерно следующее: непосредственные участники технического прогресса освещают чрезвычайно интересные особенности картины в целом, 
+		однако конкретные выводы, разумеется, обнародованы. 
+		Значимость этих проблем настолько очевидна, что социально-экономическое развитие, 
+		а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для первоочередных требований.
+		</p>
+	</div>
+	<!-- Форма -->
+	<div class="container">
+     <div class="cap4">
+        <div class="forma">
+         <form>
+            <div class="box">
+              <input name="name" type="text" class="name" value="" aria-label="Введите" placeholder="   Имя*">
+            </div>
+            <div class="box">
+              <input name="tel" type="tel" class="tel" value="" aria-label="Введите" placeholder="   Телефон*">
+            </div>
+            <div class="box">
+              <input name="email" type="email" class="mail" value="" aria-label="Введите" placeholder="   E-mail*">
+            </div>
+            <div>
+              <input type="submit" class="btn_box" formaction="https://jsonplaceholder.typicode.com/posts" value="Заказать">
+            </div>
+          </form>
+        </div>
+    </div>
+  </div>
+  <!-- Тултип -->
+  <div class="cap99">
+   		<div class="text_t">
+			<p>Следует отметить, что <br>социально-экономическое развитие способствует повышению качества <br>переосмысления <br>внешнеэкономических политик.</p>
+		</div>
+    	<div class="tooltip">
+			<div class="marker" tabindex="0">
+				<svg width="16" class="class_svg" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM8 3C7.33333 3 7 3.31919 7 3.95758C7 4.60026 7.33333 4.92159 8 4.92159C8.33333 4.92159 8.58233 4.83805 8.74699 4.67095C8.91566 4.49957 9 4.26178 9 3.95758C9 3.31919 8.66667 3 8 3ZM7.07831 13H8.91566V5.81491H7.07831V13Z" fill="#BCBCBC"/>
+				</svg>
+			</div>
+			<div class="tooltip2">
+				Глава 2, страница 176
+			</div>
+		</div>
+	</div>
+  <script src="js/choices.min.js"></script>
+  <script src="libs/just-validate.min.js"></script>
+  <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+  <script src="libs/inputmask.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
